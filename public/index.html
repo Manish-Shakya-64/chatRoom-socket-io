@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="logo.jpg">
+    <title>Chat app by Manish Shakya</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1> Chat Room by Manish Shakya</h1>
+        <div class="msgbox">
+
+            <!-- <div class="msgRight"></div>
+            <div class="msgLeft"></div> -->
+
+        </div>
+        <div class="msg-input">
+            <form action="#" id="send-box">
+                <input type="text" class="text" placeholder="Type a Message" id="text-box" autofocus>
+                <button type="submit" class="btn-send">Send</button>
+            </form>
+        </div>
+    </div>
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src="client.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    background-color: #1F2B32;
+}
+
+.container
+{
+    /* border: 2px solid white; */
+    margin-top: 2%;
+    max-width: 800px;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px rgb(168, 168, 168);
+    background-color:#0B141A ;
+
+}
+
+h1{
+    font-size: 25px;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 1px;
+}
+.msgbox
+{
+    margin-top: 2%;
+    max-width: 800px;
+    height: 80vh;
+    padding-top: 10px;
+    overflow-y: auto;
+}
+.msgRight{
+    float: right;
+    clear: both;
+    background-color: #005C4B;
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: #fff;
+    margin-right: 7%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.msgLeft{
+    float: left;
+    clear: both;
+    background-color: #1F2B32;
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: #fff;
+    margin-left: 7%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.msg-input
+{
+    background-color:  #202C33;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.text
+{
+    background-color: #2A3942;
+    color: #fff;
+    outline: none;
+    border: 0px;
+    width: 70%;
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 10px; 
+}
+
+.btn-send
+{
+    background-color: #157347;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border: 0px;
+    padding: 6px 20px;
+    border-radius: 10px; 
+    cursor: pointer;
+
+}
