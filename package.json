@@ -4,8 +4,8 @@
   "description": "Real time chat app ",
   "main": "index.js",
   "scripts": {
-    "start": "node server",
-    "dev": "nodemon server"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Manish",
   "license": "MIT",
